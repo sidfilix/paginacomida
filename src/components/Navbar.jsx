@@ -21,7 +21,7 @@ const Navbar = () => {
                 <input className="bg-trasparent p-2 w-full focus: outline-none" type="text" placeholder="search food" />
             </div>
         </div>
-    )
+     )
 
 }
 
