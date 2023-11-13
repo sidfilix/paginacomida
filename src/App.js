@@ -7,6 +7,7 @@ import Food from './components/Food'
 
 function App() {
   return (
+    
     <div>
       <Navbar />
        <Hero/>
@@ -14,6 +15,7 @@ function App() {
        <Categoryes/>
        <Food/>
     </div>
+  
   );
 }
 
