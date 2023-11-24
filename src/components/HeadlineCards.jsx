@@ -1,16 +1,9 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom'
 
-const handleLogin = () => {
-    const history = handleLogin()
-
-    history.push('./about/aboutus')
-    
-  }
-    const HeadlineCards = () => {
-    
+const HeadlineCards = () => {
         
-    return( 
+  return( 
 
    <div className='max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6' >
         <div className='rounded-xl relative'>
@@ -117,13 +110,14 @@ const handleLogin = () => {
 </div>
 <div className='rounded-xl relative'>
  <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
+<button type="button">Click</button>
        <p className='font-bold text-2xl px-2 pt-4'>
            pruebas
        </p>
         <p className=' px-2'> 
         about us prueba 
         </p>
-        <button  onClick={handleLogin} className='border-white bg-white text-black mx-2 absolute bottom-4'> 
+        <button className='border-white bg-white text-black mx-2 absolute bottom-4'> 
            Order Now
         </button>
    </div>
@@ -135,6 +129,6 @@ const handleLogin = () => {
     </div>
     
 );
-};
+ };
 
 export default withRouter(HeadlineCards);
